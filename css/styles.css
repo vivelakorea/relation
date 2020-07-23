@@ -1,0 +1,18 @@
+@import "reset.css";
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: rgb(138, 138, 138);
+  height: 80px;
+}
+.face {
+  display: flex;
+  align-items: center;
+}
+.face form input[type="text"] {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(206, 206, 206);
+  border-width: 0;
+}
