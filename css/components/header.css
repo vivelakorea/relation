@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(138, 138, 138);
+  height: 80px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav__logo__img {
+  width: 96px;
+  height: 56px;
+}
+.header__nav > div {
+  margin: 0 10px;
+}
