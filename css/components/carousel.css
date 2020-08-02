@@ -5,18 +5,18 @@
 .gallery-container {
   align-items: center;
   display: flex;
-  height: 400px;
+  height: 500px;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1400px;
   position: relative;
 }
 
 .gallery-item {
-  height: 150px;
+  height: 200px;
   opacity: 0.4;
   position: absolute;
   transition: all 0.3s ease-in-out;
-  width: 150px;
+  width: 300px;
   z-index: 0;
 }
 
@@ -24,19 +24,19 @@
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
     0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
     0 0 100px rgba(255, 255, 255, 0.1);
-  height: 300px;
+  height: 400px;
   opacity: 1;
   left: 50%;
   transform: translateX(-50%);
-  width: 400px;
+  width: 700px;
   z-index: 2;
 }
 
 .gallery-item.gallery-item-previous,
 .gallery-item.gallery-item-next {
-  height: 200px;
+  height: 300px;
   opacity: 1;
-  width: 200px;
+  width: 450px;
   z-index: 1;
 }
 

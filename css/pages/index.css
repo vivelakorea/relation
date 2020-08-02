@@ -4,6 +4,11 @@
   align-items: center;
 }
 
-.main__weekly-exhibition {
+.main > h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+}
+
+.main__title {
   margin-top: 70px;
 }
