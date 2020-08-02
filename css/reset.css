@@ -132,3 +132,9 @@ a {
   text-decoration: none;
   color: black;
 }
+
+body {
+  height: 1000vh; /*드래그 테스트용*/
+  width: 100%;
+  position: relative;
+}
