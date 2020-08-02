@@ -1,0 +1,56 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__search {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.main__search__searchtext {
+  width: 1600px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  color: gray;
+  font-size: large;
+  padding-left: 50px;
+  outline: none;
+  z-index: 0;
+}
+
+.main__search__icon {
+  position: relative;
+  left: 35px;
+  z-index: 1;
+}
+.icon {
+  color: gray;
+}
+
+.main__search__options {
+  display: flex;
+  position: relative;
+  left: 480px;
+  bottom: 31px;
+  /* 검색창 안에 넣는게 힘들어서 아래 두고 position:relative로 하고 강제로 옮겼어요 */
+}
+.option {
+  width: 60px;
+  height: 20px;
+  margin: 0;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.option:focus {
+  background-color: gray;
+  color: white;
+}

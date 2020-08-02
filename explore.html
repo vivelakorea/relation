@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/components/header.css" />
     <link rel="stylesheet" href="css/components/footer.css" />
+    <link rel="stylesheet" href="css/pages/explore.css" />
   </head>
   <body>
     <header class="header">
@@ -33,6 +34,28 @@
         </div>
       </nav>
     </header>
+
+    <main class="main">
+      <form class="main__search" method="GET" action="">
+        <div class="main__search__icon"><i class="fas fa-search icon"></i></div>
+        <input
+          class="main__search__searchtext"
+          type="textarea"
+          placeholder="검색어 입력"
+        />
+      </form>
+      <div class="main__search__options">
+        <button class="option">프로젝트</button>
+        <button class="option">이미지</button>
+        <button class="option">인물</button>
+        <button class="option">무드보드</button>
+      </div>
+    </main>
+
     <footer class="footer">Footer</footer>
+    <script
+      src="https://kit.fontawesome.com/8bc7f5e605.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
