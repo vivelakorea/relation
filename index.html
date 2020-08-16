@@ -43,18 +43,19 @@
     <main class="main">
       <h1 class="main__title">Weekly Exhibition</h1>
 
-      <!--https://www.cssscript.com/flip-element-carousel/-->
-
-      <div class="gallery">
-        <div class="gallery-container">
-          <img class="gallery-item" src="imgs/poster_6.jpeg" />
-          <img class="gallery-item" src="imgs/poster_9.png" />
-          <img class="gallery-item" src="imgs/poster_1.jpg" />
-          <img class="gallery-item" src="imgs/poster_10.jpg" />
-          <img class="gallery-item" src="imgs/poster_7.jpg" />
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img class="carousel-item" src="imgs/poster_7.jpg" id="lastClone" />
+          <img class="carousel-item" src="imgs/poster_6.jpeg" />
+          <img class="carousel-item" src="imgs/poster_9.png" />
+          <img class="carousel-item" src="imgs/poster_1.jpg" />
+          <img class="carousel-item" src="imgs/poster_10.jpg" />
+          <img class="carousel-item" src="imgs/poster_7.jpg" id="firstClone" />
         </div>
-        <div class="gallery-controls"></div>
       </div>
+
+      <button id="prevBtn">Prev</button>
+      <button id="nextBtn">Next</button>
 
       <!--Todo: 중앙배치, 사이즈 크게-->
       <h1 class="main__title">Weekly Hot</h1>
