@@ -27,9 +27,26 @@
   height: 100%;
 }
 
-#prevBtn {
+.button-container {
   position: absolute;
-  top: 50%;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#prevBtn,
+#nextBtn {
+  font-size: 70px;
+  color: grey;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* #prevBtn {
+  position: absolute;
   z-index: 10;
   left: 2%;
   font-size: 70px;
@@ -47,7 +64,7 @@
   color: grey;
   opacity: 0.7;
   cursor: pointer;
-}
+} */
 
 /*
 .gallery {
