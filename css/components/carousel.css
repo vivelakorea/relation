@@ -15,6 +15,10 @@
   height: 500px;
 }
 
+.carousel-item {
+  width: 100%;
+}
+
 /*
 .gallery {
   width: 100%;

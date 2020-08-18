@@ -24,6 +24,10 @@ window.onload = function () {
     counter--;
     carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
   });
+
+  carouselSlide.addEventListener("transitioned", () => {
+    console.log("Fired");
+  });
 };
 
 /*
