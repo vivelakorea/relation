@@ -14,6 +14,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,800;1,200&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header class="header">
@@ -44,6 +50,8 @@
       <h1 class="main__title">Weekly Exhibition</h1>
 
       <div class="carousel-container">
+        <i class="fas fa-angle-left" id="prevBtn"></i>
+        <i class="fas fa-angle-right" id="nextBtn"></i>
         <div class="carousel-slide">
           <img class="carousel-item" src="imgs/poster_7.jpg" id="lastClone" />
           <img class="carousel-item" src="imgs/poster_6.jpeg" />
@@ -54,14 +62,11 @@
         </div>
       </div>
 
-      <button id="prevBtn">Prev</button>
-      <button id="nextBtn">Next</button>
-
       <!--Todo: 중앙배치, 사이즈 크게-->
       <h1 class="main__title">Weekly Hot</h1>
       <h1 class="main__title">Weekly Artists</h1>
     </main>
-    <script src="js/carousel.js"></script>
     <footer class="footer">Footer</footer>
+    <script src="js/carousel.js"></script>
   </body>
 </html>
